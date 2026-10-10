@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /opt/picochess/engines/mame_emulation; SDL_VIDEODRIVER=dummy /opt/picochess/engines/mame_emulation/mess $1 -video none -plugin chessengine mega4
+

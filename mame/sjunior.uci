@@ -1,0 +1,27 @@
+[Level 1]
+level = c1
+PicoTimeControl = 4
+
+[Level 2]
+level = c4
+PicoTimeControl = 11
+
+[Level 3]
+level = c6
+PicoTimeControl = 25
+
+[Level 4]
+level = d1
+PicoTimeControl = 50
+
+[Level 5]
+level = d4
+PicoTimeControl = 110
+
+[Level 6]
+level = d6
+PicoTimeControl = 180
+
+[Level 7]
+level = d8
+PicoTimeControl = 720

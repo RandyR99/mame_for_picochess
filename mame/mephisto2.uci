@@ -1,0 +1,32 @@
+[1 - 5 Seconds/Move]
+level = b8 0005
+PicoTimeControl = 5
+
+[2 - 10 Seconds/Move]
+level = b8 0010
+PicoTimeControl = 10
+
+[3 - 15 Seconds/Move]
+level = b8 0015
+PicoTimeControl = 15
+
+[4 - 30 Seconds/Move]
+level = b8 0030
+PicoTimeControl = 30
+
+[5 - 40 Moves/1 Hour]
+level = b5
+PicoTimeControl = 40 60 0
+
+[6 - 40 Moves/2 Hours]
+level = b6
+PicoTimeControl = 40 120 0
+
+[7 - 10 Minutes/Move]
+level = b7
+PicoTimeControl = 600
+
+[8 - Analysis]
+level = b8 0000
+PicoTimeControl = 999
+

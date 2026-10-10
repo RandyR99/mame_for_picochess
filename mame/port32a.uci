@@ -1,0 +1,32 @@
+[1 - 3 Minutes/Game]
+level = BLITZ 01
+PicoTimeControl = 3 0
+
+[2 - 5 Minutes/Game]
+level = BLITZ 02
+PicoTimeControl = 5 0
+
+[3 - 10 Minutes/Game]
+level = BLITZ 04
+PicoTimeControl = 10 0
+
+[4 - 15 Minutes/Game]
+level = BLITZ 05
+PicoTimeControl = 15 0
+
+[5 - 20 Minutes/Game]
+level = BLITZ 06
+PicoTimeControl = 20 0
+
+[6 - 30 Minutes/Game]
+level = BLITZ 07
+PicoTimeControl = 30 0
+
+[7 - 60 Minutes/Game]
+level = BLITZ 09
+PicoTimeControl = 60 0
+
+[8 - 40 Moves/2 Hours]
+level = TURN 0
+PicoTimeControl = 40 120 0
+

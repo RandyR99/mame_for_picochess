@@ -1,0 +1,31 @@
+[Level 1 - 2s move]
+level = b1
+PicoTimeControl = 2
+
+[Level 2 - 5s move]
+level = b2
+PicoTimeControl = 5
+
+[Level 3 - 15s move]
+level = b4
+PicoTimeControl = 15
+
+[Level 4 - 30s move]
+level = b5
+PicoTimeControl = 30
+
+[Level 5 - 5m move]
+level = c2
+PicoTimeControl = 5 0
+
+[Level 6 - 10m move]
+level = c3
+PicoTimeControl = 10 0
+
+[Level 7 - 30m move]
+level = c5
+PicoTimeControl = 30 0
+
+[Level 8 - 60m move]
+level = c6
+PicoTimeControl = 60 0

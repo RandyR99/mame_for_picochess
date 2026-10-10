@@ -1,0 +1,28 @@
+[Level 1 - 5s move]
+level = a1
+PicoTimeControl = 5 0
+
+[Level 2 - 10s move]
+level = a2
+PicoTimeControl = 10 0
+
+[Level 3 - 15s move]
+level = a3
+PicoTimeControl = 15 0
+
+[Level 4 - 30s move]
+level = a4
+PicoTimeControl = 30 0
+
+[Level 5 - 60s move]
+level = a5
+PicoTimeControl = 60 0
+
+[Level 6 - 40/2h]
+level = a7
+PicoTimeControl = 40 120 0
+
+[Level 7 - 40/2.5h]
+level = a8
+PicoTimeControl = 40 150 0
+

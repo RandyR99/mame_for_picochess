@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /opt/picochess/engines/mame_emulation; /opt/picochess/engines/mame_emulation/mess $1 -plugin chessengine galileo -exp maestro,bios=3 -rom egr2
+

@@ -1,0 +1,36 @@
+[1 - 3 Seconds/Move]
+level = a1
+PicoTimeControl = 3
+
+[2 - 10 Seconds/Move]
+level = a2
+PicoTimeControl = 10
+
+[3 - 30 Seconds/Move]
+level = a3
+PicoTimeControl = 30
+
+[4 - 1 Minute/Move]
+level = a4
+PicoTimeControl = 60
+
+[5 - 2 Minutes/Move]
+level = a5
+PicoTimeControl = 120
+
+[6 - 40 Moves/2 Hours]
+level = b2
+PicoTimeControl = 40 120 0
+
+[7 - 5 Minutes/Game]
+level = c1
+PicoTimeControl = 5 0
+
+[8 - 15 Minutes/Game]
+level = c4
+PicoTimeControl = 15 0
+
+[9 - 30 Minutes/Game]
+level = c6
+PicoTimeControl = 30 0
+

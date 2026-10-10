@@ -1,0 +1,32 @@
+[1 - 4 Seconds/Move]
+level = a1
+PicoTimeControl = 4
+
+[2 - 11 Seconds/Move]
+level = a2
+PicoTimeControl = 11
+
+[3 - 25 Seconds/Move]
+level = a3
+PicoTimeControl = 25
+
+[4 - 50 Seconds/Move]
+level = a4
+PicoTimeControl = 50
+
+[5 - 110 Seconds/Move]
+level = a5
+PicoTimeControl = 110
+
+[6 - 3 Minutes/Move]
+level = a6
+PicoTimeControl = 180
+
+[7 - 12 Minutes/Move]
+level = a7
+PicoTimeControl = 720
+
+[8 - Analysis]
+level = a8
+PicoTimeControl = 999
+

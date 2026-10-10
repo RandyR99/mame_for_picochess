@@ -1,0 +1,69 @@
+;[Level Speed]
+;speed = 0
+;level = 10
+;PicoTimeControl = ?
+
+[Level 01 - 3s move]
+level = 1
+PicoTimeControl = 3
+
+[Level 02 - 10s move]
+level = 2
+PicoTimeControl = 10
+
+[Level 03 - 30s move]
+level = 3
+PicoTimeControl = 30
+
+[Level 04 - 60s move]
+level = 4
+PicoTimeControl = 60
+
+[Level 05 - 2m move]
+level = 5
+PicoTimeControl = 120
+
+[Level 06 - 3m move]
+level = 6
+PicoTimeControl = 180
+
+[Level 07 - 6m move]
+level = 7
+PicoTimeControl = 360
+
+;[Level 08 - Analysis]
+;level = 8
+;PicoTimeControl = ?
+
+;[Level 09 - Mate1]
+;level = 9
+;PicoTimeControl = ?
+
+;[Level 10 - Mate2]
+;level = 10
+;PicoTimeControl = ?
+
+;[Level 11 - Mate3]
+;level = 11
+;PicoTimeControl = ?
+
+;[Level 12 - Mate4]
+;level = 12
+;PicoTimeControl = ?
+
+;[Level 13 - Mate5]
+;level = 13
+;PicoTimeControl = ?
+
+;[Level 14 - Mate6]
+;level = 14
+;PicoTimeControl = ?
+
+;[Level 15 - Mate7]
+;level = 15
+;PicoTimeControl = ?
+
+;[Level 16 - Mate8]
+;level = 16
+;PicoTimeControl = ?
+

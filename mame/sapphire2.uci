@@ -1,0 +1,40 @@
+[Level 0 - 2s move]
+level = AT 1
+PicoTimeControl = 2
+
+[Level 1 - 5s move]
+level = AT 2
+PicoTimeControl = 5
+
+[Level 2 - 10s move]
+level = AT 3
+PicoTimeControl = 10
+
+[Level 3 - 30s move]
+level = AT 5
+PicoTimeControl = 30
+
+[Level 4 - 5m game]
+level = SD 2
+PicoTimeControl = 5 0
+
+[Level 5 - 10m game]
+level = SD 3
+PicoTimeControl = 10 0
+
+[Level 6 - 30m game]
+level = SD 5
+PicoTimeControl = 30 0
+
+[Level 7 - 60m game]
+level = SD 6
+PicoTimeControl = 60 0
+
+[Level 8 - 90m game]
+level = SD 7
+PicoTimeControl = 90 0
+
+[Level 9 - 120m game]
+level = SD 8
+PicoTimeControl = 120 0
+

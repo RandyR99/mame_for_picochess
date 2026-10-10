@@ -1,0 +1,24 @@
+[1 - 10 Seconds/Move]
+level = 1
+PicoTimeControl = 10
+
+[2 - 15 Seconds/Move]
+level = 2
+PicoTimeControl = 15
+
+[3 - 30 Seconds/Move]
+level = 3
+PicoTimeControl = 30
+
+[4 - 2 Minutes/Move]
+level = 4
+PicoTimeControl = 120
+
+[5 - 5 Minutes/Move]
+level = 5
+PicoTimeControl = 300
+
+[6 - 20 Minutes/Move]
+level = 6
+PicoTimeControl = 999
+

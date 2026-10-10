@@ -1,0 +1,35 @@
+[1 - 5 Seconds/Move]
+level = NORMAL 0:05
+PicoTimeControl = 5
+
+[2 - 15 Seconds/Move]
+level = NORMAL 0:15
+PicoTimeControl = 15
+
+[3 - 30 Seconds/Move]
+level = NORMAL 0:30
+PicoTimeControl = 30
+
+[4 - 1 Minute/Move]
+level = NORMAL 1:00
+PicoTimeControl = 60
+
+[5 - 2 Minutes/Move]
+level = NORMAL 2:00
+PicoTimeControl = 120
+
+[6 - 40 Moves/2 Hours]
+level = TURN 40 in 2:00
+PicoTimeControl = 40 120 0
+
+[7 - 5 Minutes/Game]
+level = BLITZ 5:00
+PicoTimeControl = 5 0
+
+[8 - 15 Minutes/Game]
+level = BLITZ 15:00
+PicoTimeControl = 15 0
+
+[9 - 30 Minutes/Game]
+level = BLITZ 30:00
+PicoTimeControl = 30 0

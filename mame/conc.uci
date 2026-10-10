@@ -1,0 +1,28 @@
+[1 - 5 Seconds/Move]
+level = T1
+PicoTimeControl = 5
+
+[2 - 15 Seconds/Move]
+level = P2
+PicoTimeControl = 15
+
+[3 - 1 Minute/Move]
+level = P3
+PicoTimeControl = 60
+
+[4 - 2 Minutes/Move]
+level = T3
+PicoTimeControl = 120
+
+[5 - 3 Minutes/Move]
+level = T4
+PicoTimeControl = 180
+
+[6 - 5 Minutes/Move]
+level = P4
+PicoTimeControl = 300
+
+[7 - 30 Minutes/Move]
+level = P5
+PicoTimeControl = 999
+

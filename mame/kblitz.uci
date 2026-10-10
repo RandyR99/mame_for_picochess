@@ -1,0 +1,48 @@
+[Level 01 - 1s move]
+level = a1
+PicoTimeControl = 1
+
+[Level 02 - 5s move]
+level = a3
+PicoTimeControl = 5
+
+[Level 03 - 15s move]
+level = a4
+PicoTimeControl = 15
+
+[Level 04 - 30s move]
+level = a5
+PicoTimeControl = 30
+
+[Level 05 - 5m (B)]
+level = d1
+PicoTimeControl = 5 0
+
+[Level 06 - 10m (B)]
+level = d3
+PicoTimeControl = 10 0
+
+[Level 07 - 30m (B)]
+level = d6
+PicoTimeControl = 30 0
+
+[Level 08 - 60m (B)]
+level = d7
+PicoTimeControl = 60 0
+
+[Level 09 - 5m game]
+level = c1
+PicoTimeControl = 5 0
+
+[Level 10 - 10m game]
+level = c3
+PicoTimeControl = 10 0
+
+[Level 11 - 30m game]
+level = c6
+PicoTimeControl = 30 0
+
+[Level 12 - 60m game]
+level = c7
+PicoTimeControl = 60 0
+
