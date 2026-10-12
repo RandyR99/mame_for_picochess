@@ -1,36 +1,36 @@
-[Level 1 - 7s move]
+[1 - 7 Seconds/Move]
 level = 1
 PicoTimeControl = 7
 
-[Level 2 - 13s move]
+[2 - 10 Seconds/Move]
 level = 2
-PicoTimeControl = 13
+PicoTimeControl = 10
 
-[Level 3 - 19s move]
+[3 - 15 Seconds/Move]
 level = 3
-PicoTimeControl = 19
+PicoTimeControl = 15
 
-[Level 4 - 24s move]
+[4 - 20 Seconds/Move]
 level = 4
-PicoTimeControl = 24
+PicoTimeControl = 20
 
-[Level 5 - 30s move]
+[5 - 30 Seconds/Move]
 level = 5
 PicoTimeControl = 30
 
-[Level 6 - 1m move]
+[6 - 1 Minute/Move]
 level = 6
 PicoTimeControl = 60
 
-[Level 7 - 2m move]
+[7 - 2 Minutes/Move]
 level = 7
 PicoTimeControl = 120
 
-[Level 8 - 3m move]
+[8 - 3 Minutes/Move]
 level = 8
 PicoTimeControl = 180
 
-;[Level 9 - Infinite]
-;level = 9
-;PicoTimeControl = 02 999 02 999
+[9 - 6 Minutes/Move]
+level = 9
+PicoTimeControl = 360
 
