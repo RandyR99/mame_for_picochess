@@ -15,7 +15,7 @@ level = 28
 PicoTimeControl = 60
 
 [Level 4 - 5m game]
-level = 76
+level = 70
 PicoTimeControl = 5 0
 
 [Level 5 - 15m game]
