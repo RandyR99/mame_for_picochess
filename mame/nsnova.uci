@@ -1,96 +1,43 @@
-[Level 01 - 60/5m]
-level = 1
-PicoTimeControl = 60 5 0
-
-[Level 02 - 60/30m]
-level = 2
-PicoTimeControl = 60 30 0
-
-[Level 03 - 60/60m]
-level = 3
-PicoTimeControl = 60 60 0
-
-[Level 04 - 45/90m]
-level = 4
-PicoTimeControl = 45 90 0
-
-[Level 05 - 40/90m]
-level = 5
-PicoTimeControl = 40 90 0
-
-[Level 06 - 40/100m]
-level = 6
-PicoTimeControl = 40 100 0
-
-[Level 07 - 40/120m]
-level = 7
-PicoTimeControl = 40 120 0
-
-[Level 08 - 40/150m]
-level = 8
-PicoTimeControl = 40 150 0
-
-[Level 09 - 2s move]
-level = 9
-PicoTimeControl = 2
-
-[Level 10 - 5s move]
+[Level 1 - 5s move]
 level = 10
 PicoTimeControl = 5
 
-[Level 11 - 10s move]
+[Level 2 - 10s move]
 level = 11
 PicoTimeControl = 10
 
-[Level 12 - 15s move]
-level = 12
-PicoTimeControl = 15
-
-[Level 13 - 30s move]
+[Level 3 - 30s move]
 level = 13
 PicoTimeControl = 30
 
-[Level 14 - 1m move]
+[Level 4 - 1m move]
 level = 14
 PicoTimeControl = 60
 
-[Level 15 - 2m move]
-level = 15
-PicoTimeControl = 120
-
-[Level 16 - 3m move]
+[Level 5 - 3m move]
 level = 16
 PicoTimeControl = 180
 
-[Level 17 - 3m game]
+[Level 6 - 3m game]
 level = 17
 PicoTimeControl = 3 0
 
-[Level 18 - 5m game]
+[Level 7 - 5m game]
 level = 18
 PicoTimeControl = 5 0
 
-[Level 19 - 10m game]
+[Level 8 - 10m game]
 level = 19
 PicoTimeControl = 10 0
 
-[Level 20 - 15m game]
+[Level 9 - 15m game]
 level = 20
 PicoTimeControl = 15 0
 
-[Level 21 - 30m game]
+[Level 10 - 30m game]
 level = 21
 PicoTimeControl = 30 0
 
-[Level 22 - 1hr game]
-level = 22
-PicoTimeControl = 60 0
-
-[Level 23 - 90m game]
-level = 23
-PicoTimeControl = 90 0
-
-[Level 24 - 2hr game]
-level = 24
-PicoTimeControl = 120 0
-
+[Level 11 - 40 moves in 1.5h]
+level = 5
+PicoTimeControl = 40 90 0
