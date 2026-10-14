@@ -1,0 +1,39 @@
+[Level 1 - 5s move]
+level = 40
+PicoTimeControl = 5
+
+[Level 2 - 10s move]
+level = 45
+PicoTimeControl = 10
+
+[Level 3 - 30s move]
+level = 53
+PicoTimeControl = 30
+
+[Level 4 - 1m move]
+level = 58
+PicoTimeControl = 60
+
+[Level 5 - 3m move]
+level = 66
+PicoTimeControl = 180
+
+[Level 6 - 2m game]
+level = 67
+PicoTimeControl = 2 0
+
+[Level 7 - 5m game]
+level = 70
+PicoTimeControl = 5 0
+
+[Level 8 - 10m game]
+level = 75
+PicoTimeControl = 10 0
+
+[Level 9 - 15m game]
+level = 76
+PicoTimeControl = 15 0
+
+[Level 10 - 40 moves in 2h]
+level = 92
+PicoTimeControl = 40 120 0
