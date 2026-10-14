@@ -6,27 +6,22 @@ PicoTimeControl = 5
 level = 2
 PicoTimeControl = 10
 
-[Level 3 - 25s move]
+[Level 3 - 15s move]
 level = 3
-PicoTimeControl = 25
+PicoTimeControl = 15
 
-[Level 4 - 45s move]
+[Level 4 - 30s move]
 level = 4
-PicoTimeControl = 45
+PicoTimeControl = 30
 
-[Level 5 - 2.5m move]
+[Level 5 - 40 moves in 1.5h]
 level = 5
-PicoTimeControl = 150
+PicoTimeControl = 40 90 0
 
-[Level 6 - 3m move]
+[Level 6 - 40 moves in 2h]
 level = 6
-PicoTimeControl = 180
+PicoTimeControl = 40 120 0
 
-[Level 7 - 15m move]
+[Level 7 - 10m move]
 level = 7
-PicoTimeControl = 900
-
-;[Level 8 - infinite]
-;level = 8
-;PicoTimeControl = 02 999 02 999
-
+PicoTimeControl = 600
