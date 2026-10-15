@@ -1,0 +1,43 @@
+[Level 1 - 5s move]
+level = FT 2
+PicoTimeControl = 5
+
+[Level 2 - 10s move]
+level = FT 3
+PicoTimeControl = 10
+
+[Level 3 - 30s move]
+level = FT 5
+PicoTimeControl = 30
+
+[Level 4 - 1m move]
+level = FT 6
+PicoTimeControl = 60
+
+[Level 5 - 3m move]
+level = FT 8
+PicoTimeControl = 180
+
+[Level 6 - 3m game]
+level = SD 1
+PicoTimeControl = 3 0
+
+[Level 7 - 5m game]
+level = SD 2
+PicoTimeControl = 5 0
+
+[Level 8 - 10m game]
+level = SD 3
+PicoTimeControl = 10 0
+
+[Level 9 - 15m game]
+level = SD 4
+PicoTimeControl = 15 0
+
+[Level 10 - 30m game]
+level = SD 5
+PicoTimeControl = 30 0
+
+[Level 11 - 40 moves in 1.5h]
+level = TR 5
+PicoTimeControl = 40 90 0
