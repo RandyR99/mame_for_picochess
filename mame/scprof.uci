@@ -1,23 +1,19 @@
-[Level 1 - 1s move]
-level = a1
-PicoTimeControl = 1
-
-[Level 2 - 5s move]
+[Level 1 - 5s move]
 level = a4
 PicoTimeControl = 5
 
-[Level 3 - 10s move]
+[Level 2 - 10s move]
 level = a5
 PicoTimeControl = 10
 
-[Level 4 - 30s move]
+[Level 3 - 30s move]
 level = a7
 PicoTimeControl = 30
 
-[Level 5 - 1m move]
+[Level 4 - 1m move]
 level = a8
 PicoTimeControl = 60
 
-[Level 6 - 3m move]
+[Level 5 - 3m move]
 level = b2
 PicoTimeControl = 180

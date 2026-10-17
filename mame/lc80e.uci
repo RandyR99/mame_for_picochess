@@ -1,23 +1,19 @@
 [Level 1]
-level = 1
-PicoTimeControl = 1
-
-[Level 2]
 level = 2
 PicoTimeControl = 5
 
-[Level 3]
+[Level 2]
 level = 3
 PicoTimeControl = 10
 
-[Level 4]
+[Level 3]
 level = 4
 PicoTimeControl = 15
 
-[Level 5]
+[Level 4]
 level = 5
 PicoTimeControl = 30
 
-[Level 6]
+[Level 5]
 level = 6
 PicoTimeControl = 60

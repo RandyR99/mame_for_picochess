@@ -1,6 +1,6 @@
-[1 - 3 Seconds/Move]
+[1 - 5 Seconds/Move]
 level = 1
-PicoTimeControl = 3
+PicoTimeControl = 5
 
 [2 - 8 Seconds/Move]
 level = 2

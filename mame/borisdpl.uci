@@ -1,40 +1,32 @@
-[Level 01 - 1s move]
-level = 000001
-PicoTimeControl = 1
-
-[Level 02 - 3s move]
-level = 000003
-PicoTimeControl = 3
-
-[Level 03 - 5s move]
+[Level 01 - 5s move]
 level = 000005
 PicoTimeControl = 5
 
-[Level 04 - 10s move]
+[Level 02 - 10s move]
 level = 000010
 PicoTimeControl = 10
 
-[Level 05 - 15s move]
+[Level 03 - 15s move]
 level = 000015
 PicoTimeControl = 15
 
-[Level 06 - 30s move]
+[Level 04 - 30s move]
 level = 000030
 PicoTimeControl = 30
 
-[Level 07 - 1m move]
+[Level 05 - 1m move]
 level = 000100
 PicoTimeControl = 60
 
-[Level 08 - 3m move]
+[Level 06 - 3m move]
 level = 000300
 PicoTimeControl = 180
 
-[Level 09 - 5m move]
+[Level 07 - 5m move]
 level = 000500
 PicoTimeControl = 300
 
-[Level 10 - 10m move]
+[Level 08 - 10m move]
 level = 001000
 PicoTimeControl = 600
 

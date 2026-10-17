@@ -34,7 +34,6 @@ PicoTimeControl = 15 0
 level = g5
 PicoTimeControl = 30 0
 
-
 [Level 10 - Analysis]
 level = f8
 PicoTimeControl = 999

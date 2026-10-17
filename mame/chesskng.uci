@@ -1,13 +1,8 @@
-[Level 1 - 2s move]
-level = 1
-PicoTimeControl = 2
-
-[Level 2 - <5s move]
+[Level 1 - <5s move]
 level = 2
 PicoTimeControl = 5
 
-[Level 3 - <10s move]
+[Level 2 - <10s move]
 level = 3
 PicoTimeControl = 10
-
 
