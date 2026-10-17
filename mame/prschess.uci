@@ -22,3 +22,7 @@ PicoTimeControl = 180
 level = 6
 PicoTimeControl = 600
 
+
+[Level 7 - Analysis]
+level = 8
+PicoTimeControl = 999
