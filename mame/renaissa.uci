@@ -50,3 +50,7 @@ PicoTimeControl = 60 0
 level = c7
 PicoTimeControl = 90 0
 
+
+[Level 14 - Analysis]
+level = b7
+PicoTimeControl = 999
