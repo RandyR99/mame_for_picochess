@@ -14,34 +14,30 @@ PicoTimeControl = 15
 level = a5
 PicoTimeControl = 30
 
-[Level 5 - 5m (B)]
-level = d1
-PicoTimeControl = 5 0
+[Level 5 - 1m move]
+level = a6
+PicoTimeControl = 60
 
-[Level 6 - 10m (B)]
-level = d3
-PicoTimeControl = 10 0
+[Level 6 - 3m move]
+level = a8
+PicoTimeControl = 180
 
-[Level 7 - 30m (B)]
-level = d6
-PicoTimeControl = 30 0
-
-[Level 8 - 60m (B)]
-level = d7
-PicoTimeControl = 60 0
-
-[Level 9 - 5m move]
+[Level 7 - 5m game]
 level = c1
 PicoTimeControl = 5 0
 
-[Level 10 - 10m move]
+[Level 8 - 10m game]
 level = c3
 PicoTimeControl = 10 0
 
-[Level 11 - 30m move]
+[Level 9 - 30m game]
 level = c6
 PicoTimeControl = 30 0
 
-[Level 12 - 60m move]
+[Level 10 - 60m game]
 level = c7
 PicoTimeControl = 60 0
+
+[Level 11 - Analysis]
+level = b7
+PicoTimeControl = 999
