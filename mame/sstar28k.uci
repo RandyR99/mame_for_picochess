@@ -1,24 +1,35 @@
-[1 - 5 Seconds/Move]
+[Level 1 - 5s move]
 level = a1
 PicoTimeControl = 5
 
-[2 - 20 Seconds/Move]
+[Level 2 - 10s move]
+level = b7
+PicoTimeControl = 10
+
+[Level 3 - 20s move]
 level = a2
 PicoTimeControl = 20
 
-[3 - 1 Minute/Move]
+[Level 4 - 1m move]
 level = a3
 PicoTimeControl = 60
 
-[4 - 2 Minutes/Move]
-level = a4
-PicoTimeControl = 120
+[Level 5 - 6m move]
+level = a6
+PicoTimeControl = 360
 
-[5 - 40 Moves/2 Hours]
+[Level 6 - 10m move]
+level = a7
+PicoTimeControl = 600
+
+[Level 7 - 5m game]
+level = b6
+PicoTimeControl = 5 0
+
+[Level 8 - 60m game]
+level = b4
+PicoTimeControl = 60 0
+
+[Level 9 - 40 moves in 2h]
 level = b2
 PicoTimeControl = 40 120 0
-
-[6 - Analysis]
-level = b8
-PicoTimeControl = 999
-
