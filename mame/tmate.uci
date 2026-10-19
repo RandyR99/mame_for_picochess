@@ -1,31 +1,31 @@
-[Level 0 - 5m game]
-level = E
-PicoTimeControl = 5 0
-
 [Level 1 - 5s move]
 level = 4
 PicoTimeControl = 5
 
-[Level 2 - 15s move]
+[Level 2 - 10s move]
+level = F
+PicoTimeControl = 10
+
+[Level 3 - 15s move]
 level = 5
 PicoTimeControl = 15
 
-[Level 3 - 30s move]
+[Level 4 - 30s move]
 level = 6
 PicoTimeControl = 30
 
-[Level 4 - 60s move]
+[Level 5 - 1m move]
 level = 7
 PicoTimeControl = 60
 
-[Level 5 - 3m move]
+[Level 6 - 3m move]
 level = 8
 PicoTimeControl = 180
 
-[Level 6 - 10s move]
-level = F
-PicoTimeControl = 10 0
+[Level 7 - 5m game]
+level = E
+PicoTimeControl = 5 0
 
-[Lvl 7 - 30mv/30m +30mv/30m]
-level = A
-PicoTimeControl = 30 30 0 30
+[Level 8 - 40 moves in 2h]
+level = B
+PicoTimeControl = 40 120 0
