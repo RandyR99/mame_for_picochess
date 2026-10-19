@@ -1,17 +1,15 @@
-;[Level Speed]
-;speed = 0
-;level = 3
-;PicoTimeControl = ?
-
 [Level 1 - 5s move]
 level = 1
 PicoTimeControl = 5
 
-[Level 2 - 15s move]
+[Level 2 - 10s move]
 level = 2
-PicoTimeControl = 15
+PicoTimeControl = 10
 
 [Level 3 - 30s move]
 level = 3
 PicoTimeControl = 30
 
+[Level 4 - 3m move]
+level = 4
+PicoTimeControl = 180
