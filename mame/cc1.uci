@@ -1,9 +1,2 @@
-[Fischer 5 3]
-PicoTimeControl = 5 3
-
-[Game in 5m]
-PicoTimeControl = 5 0
-
-[Move in 5s]
+[Level 1 - 5s move]
 PicoTimeControl = 5
-
