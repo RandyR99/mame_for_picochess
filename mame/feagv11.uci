@@ -3,35 +3,35 @@
 ;level = a8
 ;PicoTimeControl = ?
 
-[Level 1 - 60/5m]
+[Level 1 - 60 moves/5m]
 level = a1
 PicoTimeControl = 60 5 0
 
-[Level 2 - 60/10m]
+[Level 2 - 60 moves/10m]
 level = a2
 PicoTimeControl = 60 10 0
 
-[Level 3 - 60/15m]
+[Level 3 - 60 moves/15m]
 level = a3
 PicoTimeControl = 60 15 0
 
-[Level 4 - 60/30m]
+[Level 4 - 60 moves/30m]
 level = a4
 PicoTimeControl = 60 30 0
 
-[Level 5 - 60/60m]
+[Level 5 - 60 moves/60m]
 level = a5
 PicoTimeControl = 60 60 0
 
-[Level 6 - 30/60m]
+[Level 6 - 30 moves/60m]
 level = a6
 PicoTimeControl = 30 60 0
 
-[Level 7 - 40/2h]
+[Level 7 - 40 moves/2h]
 level = a7
 PicoTimeControl = 40 120 0
 
-[Level 8 - 40/2.5h]
+[Level 8 - 40 moves/2.5h]
 level = a8
 PicoTimeControl = 40 150 0
 

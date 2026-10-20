@@ -38,7 +38,7 @@ PicoTimeControl = 10 0
 level = EASY 03
 PicoTimeControl = 5 0
 
-[Level 11 - 60/1h]
+[Level 11 - 60 moves/1h]
 level = TURN 05
 PicoTimeControl = 60 60 0
 

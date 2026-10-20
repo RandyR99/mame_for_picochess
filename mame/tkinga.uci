@@ -30,7 +30,7 @@ PicoTimeControl = 10 0
 level = c6
 PicoTimeControl = 30 0
 
-[Level 9 - 40/2h]
+[Level 9 - 40 moves/2h]
 level = b2
 PicoTimeControl = 40 120 0
 

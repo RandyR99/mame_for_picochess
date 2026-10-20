@@ -2,23 +2,23 @@
 ;level = 0
 ;PicoTimeControl = ?
 
-[Level 01 - 60/5m]
+[Level 01 - 60 moves/5m]
 level = 1
 PicoTimeControl = 60 5 1
 
-[Level 02 - 60/15m]
+[Level 02 - 60 moves/15m]
 level = 2
 PicoTimeControl = 60 15 1
 
-[Level 03 - 60/60m]
+[Level 03 - 60 moves/60m]
 level = 3
 PicoTimeControl = 60 60 1
 
-[Level 04 - 48/4h]
+[Level 04 - 48 moves/4h]
 level = 4
 PicoTimeControl = 48 240 1
 
-[Level 05 - 16/4h]
+[Level 05 - 16 moves/4h]
 level = 5
 PicoTimeControl = 16 240 1
 
@@ -26,11 +26,11 @@ PicoTimeControl = 16 240 1
 level = 6
 PicoTimeControl = 60
 
-[Level 07 - 30/60m]
+[Level 07 - 30 moves/60m]
 level = 7
 PicoTimeControl = 30 60 1
 
-[Level 08 - 40/2h]
+[Level 08 - 40 moves/2h]
 level = 8
 PicoTimeControl = 40 120 1
 

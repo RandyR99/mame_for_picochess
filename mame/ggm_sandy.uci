@@ -31,11 +31,11 @@ PicoTimeControl = 240
 ;level = 6
 ;PicoTimeControl = 999
 
-[Level 7 - 30/60m]
+[Level 7 - 30 moves/60m]
 level = 7
 PicoTimeControl = 30 60 1
 
-[Level 8 - 20/60m]
+[Level 8 - 20 moves/60m]
 level = 8
 PicoTimeControl = 20 60 1
 

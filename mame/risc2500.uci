@@ -34,7 +34,7 @@ PicoTimeControl = 30 0
 level = 60 min/game
 PicoTimeControl = 60 0
 
-[Level 10 - 40/2h]
+[Level 10 - 40 moves/2h]
 level = 40/2:00 moves/hrs
 PicoTimeControl = 40 120 0
 
