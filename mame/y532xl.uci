@@ -22,7 +22,7 @@ PicoTimeControl = 60
 level = TI 8
 PicoTimeControl = 120
 
-[Level 7 - 40 moves in 2h]
+[Level 7 - 40 moves/2h]
 level = TI 9
 PicoTimeControl = 40 120 0
 

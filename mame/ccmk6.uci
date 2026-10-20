@@ -26,6 +26,6 @@ PicoTimeControl = 300
 level = 600
 PicoTimeControl = 600
 
-[Level 8 - 40 moves in 1.5h]
+[Level 8 - 40 moves/1.5h]
 level = TOURN 40/90
 PicoTimeControl = 40 90 0

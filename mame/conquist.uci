@@ -26,6 +26,6 @@ PicoTimeControl = 180
 level = E
 PicoTimeControl = 5 0
 
-[Level 8 - 40 moves in 2h]
+[Level 8 - 40 moves/2h]
 level = B
 PicoTimeControl = 40 120 0
