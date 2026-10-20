@@ -1,32 +1,31 @@
-[1 - 5 Seconds/Move]
+[Level 1 - 5s move]
 level = TI 1
 PicoTimeControl = 5
 
-[2 - 10 Seconds/Move]
+[Level 2 - 10s move]
 level = TI 2
 PicoTimeControl = 10
 
-[3 - 15 Seconds/Move]
+[Level 3 - 15s move]
 level = TI 3
 PicoTimeControl = 15
 
-[4 - 30 Seconds/Move]
+[Level 4 - 30s move]
 level = TI 5
 PicoTimeControl = 30
 
-[5 - 1 Minute/Move]
+[Level 5 - 1m move]
 level = TI 7
 PicoTimeControl = 60
 
-[6 - 2 Minute/Move]
+[Level 6 - 2m move]
 level = TI 8
 PicoTimeControl = 120
 
-[7 - 40 Moves/2 Hours]
+[Level 7 - 40 moves in 2h]
 level = TI 9
 PicoTimeControl = 40 120 0
 
-[8 - Analysis]
+[Level 8 - Analysis]
 level = DE 10
 PicoTimeControl = 999
-
