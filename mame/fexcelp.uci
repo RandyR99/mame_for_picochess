@@ -1,48 +1,27 @@
-[Level 01 - 1 ply]
-level = 1
-PicoTimeControl = 10
-
-[Level 02 - 2 plies]
-level = 2
-PicoTimeControl = 30
-
-[Level 03 - 3 plies]
-level = 3
-PicoTimeControl = 120
-
-[Level 04 - 4 plies]
-level = 4
-PicoTimeControl = 300
-
-[Level 05 - 5 plies]
-level = 5
-PicoTimeControl = 1200
-
-[Level 06 - 5s move]
+[Level 1 - 5s move]
 level = 6
 PicoTimeControl = 5
 
-[Level 07 - 15s move]
+[Level 2 - 15s move]
 level = 7
 PicoTimeControl = 15
 
-[Level 08 - 30s move]
+[Level 3 - 30s move]
 level = 8
 PicoTimeControl = 30
 
-[Level 09 - 60s move]
+[Level 4 - 1m move]
 level = 9
 PicoTimeControl = 60
 
-[Level 10 - 2m move]
+[Level 5 - 2m move]
 level = 10
 PicoTimeControl = 120
 
-[Level 11 - 3m move]
+[Level 6 - 40 moves/2h]
 level = 11
-PicoTimeControl = 180
+PicoTimeControl = 40 120 0
 
-;[Level 12 - Analysis]
-;level = 12
-;PicoTimeControl = 0
-
+[Level 7 - Analysis]
+level = 12
+PicoTimeControl = 999
