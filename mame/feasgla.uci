@@ -1,8 +1,3 @@
-;[Level Speed]
-;speed = 0
-;level = a8
-;PicoTimeControl = ?
-
 [Level 1 - 5s move]
 level = a1
 PicoTimeControl = 5
@@ -27,16 +22,26 @@ PicoTimeControl = 120
 level = a6
 PicoTimeControl = 180
 
-[Level 7 - 4m move]
-level = a7
-PicoTimeControl = 240
-
-[Level 8 - 6m move]
-level = a8
-PicoTimeControl = 360
-
-[Level 9 - Blitz 5m]
+[Level 7 - 5m game]
 level = b2 0:05 0:05
-PicoTimeControl = 5 1
+PicoTimeControl = 5 0
 
+[Level 8 - 10m game]
+level = b2 0:10 0:10
+PicoTimeControl = 10 0
 
+[Level 9 - 30m game]
+level = b2 0:30 0:30
+PicoTimeControl = 30 0
+
+[Level 10 - 40 moves/2.5h]
+level = a7
+PicoTimeControl = 40 150 0
+
+[Level 11 - 30 moves/3h]
+level = a8
+PicoTimeControl = 30 180 0
+
+[Level 12 - Analysis]
+level = b1
+PicoTimeControl = 999
