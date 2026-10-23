@@ -1,53 +1,43 @@
-;[Level Speed]
-;speed = 100
-;level = 10
-;PicoTimeControl = ?
-
-[Level 00 - 1s move]
-level = 0
-PicoTimeControl = 1
-
-[Level 01 - 2s move]
-level = 1
-PicoTimeControl = 2
-
-[Level 02 - 3s move]
-level = 2
-PicoTimeControl = 3
-
-[Level 03 - 5s move]
-level = 3
+[Level 1 - 5s move]
+level = 03
 PicoTimeControl = 5
 
-[Level 04 - 10s move]
-level = 4
+[Level 2 - 10s move]
+level = 04
 PicoTimeControl = 10
 
-[Level 05 - 2m move]
-level = 5
-PicoTimeControl = 120
+[Level 3 - 30s move]
+level = 50 00:00:30
+PicoTimeControl = 30
 
-[Level 06 - B 5mins]
+[Level 4 - 1m move]
+level = 50 00:01:00
+PicoTimeControl = 60
+
+[Level 5 - 5m move]
+level = 50 00:05:00
+PicoTimeControl = 300
+
+[Level 6 - 5m game]
 level = 32
-PicoTimeControl = 5 1
+PicoTimeControl = 5 0
 
-[Level 07 - B-10mins]
+[Level 7 - 10m game]
 level = 34
-PicoTimeControl = 10 1
+PicoTimeControl = 10 0
 
-[Level 08 - B-30mins]
+[Level 8 - 15m game]
+level = 35
+PicoTimeControl = 15 0
+
+[Level 9 - 30m game]
 level = 37
-PicoTimeControl = 30 1
+PicoTimeControl = 30 0
 
-[Level 09 - 40 moves/120m]
-level = 40
-PicoTimeControl = 40 120 1
+[Level 10 - 40 moves/1.5h]
+level = 52 40/01:30
+PicoTimeControl = 40 90 0
 
-[Level 10 - 60 moves/120m]
-level = 47
-PicoTimeControl = 60 120 1
-
-;[99-Analysis]
-;level = 99
-;PicoTimeControl = 02 999 02 999
-
+[Level 11 - Analysis]
+level = 99
+PicoTimeControl = 999
