@@ -1,11 +1,6 @@
-;[Level Speed]
-;speed = 0
-;level = a8
-;PicoTimeControl = ?
-
-[Level 1 - 4s move]
+[Level 1 - 5s move]
 level = a1
-PicoTimeControl = 4
+PicoTimeControl = 5
 
 [Level 2 - 11s move]
 level = a2
@@ -30,8 +25,3 @@ PicoTimeControl = 180
 [Level 7 - 12m move]
 level = a7
 PicoTimeControl = 720
-
-;[Level 8 - >8h move]
-;level = a8
-;PicoTimeControl = 02 999 02 999
-
