@@ -1,35 +1,43 @@
-[1 - 5 Seconds/Move]
+[Level 1 - 5s move]
 level = NORMAL 0:05
 PicoTimeControl = 5
 
-[2 - 15 Seconds/Move]
-level = NORMAL 0:15
-PicoTimeControl = 15
+[Level 2 - 10s move]
+level = NORMAL 0:10
+PicoTimeControl = 10
 
-[3 - 30 Seconds/Move]
+[Level 3 - 30s move]
 level = NORMAL 0:30
 PicoTimeControl = 30
 
-[4 - 1 Minute/Move]
+[Level 4 - 1m move]
 level = NORMAL 1:00
 PicoTimeControl = 60
 
-[5 - 2 Minutes/Move]
-level = NORMAL 2:00
-PicoTimeControl = 120
+[Level 5 - 5m move]
+level = NORMAL 5:00
+PicoTimeControl = 300
 
-[6 - 40 Moves/2 Hours]
-level = TURN 40 in 2:00
-PicoTimeControl = 40 120 0
-
-[7 - 5 Minutes/Game]
-level = BLITZ 5:00
+[Level 6 - 5m game]
+level = BLITZ 0:05 0:05
 PicoTimeControl = 5 0
 
-[8 - 15 Minutes/Game]
-level = BLITZ 15:00
+[Level 7 - 10m game]
+level = BLITZ 0:10 0:10
+PicoTimeControl = 10 0
+
+[Level 8 - 15m game]
+level = BLITZ 0:15 0:15
 PicoTimeControl = 15 0
 
-[9 - 30 Minutes/Game]
-level = BLITZ 30:00
+[Level 9 - 30m game]
+level = BLITZ 0:30 0:30
 PicoTimeControl = 30 0
+
+[Level 10 - 40 moves/1.5h]
+level = TOUR 40 IN 1:30
+PicoTimeControl = 40 90 0
+
+[Level 11 - Analysis]
+level = INFINITE
+PicoTimeControl = 999
