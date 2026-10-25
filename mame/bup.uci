@@ -1,53 +1,35 @@
-;[Level Speed]
-;speed = 0
-;level = bl 10
-;PicoTimeControl = ?
-
-[Level 01 - 3s move]
-level = bl 1
-PicoTimeControl = 3
-
-[Level 02 - 5s move]
-level = bl 2
+[Level 1 - 5s move]
+level = bl 3
 PicoTimeControl = 5
 
-[Level 03 - 60 moves/1m]
-level = bl 3
-PicoTimeControl = 60 1 1
-
-[Level 04 - 60 moves/10m]
+[Level 2 - 10s move]
 level = bl 4
-PicoTimeControl = 60 10 1
+PicoTimeControl = 10
 
-[Level 05 - 60 moves/20m]
+[Level 3 - 20s move]
 level = bl 5
-PicoTimeControl = 60 20 1
+PicoTimeControl = 20
 
-[Level 06 - 60 moves/30m]
+[Level 4 - 30s move]
 level = bl 6
-PicoTimeControl = 60 30 1
+PicoTimeControl = 30
 
-[Level 07 - 60 moves/1h]
-level = Pl 1
-PicoTimeControl = 60 60 1
+[Level 5 - 1m move]
+level = pl 1
+PicoTimeControl = 60
 
-[Level 08 - 60 moves/2h]
-level = Pl 2
-PicoTimeControl = 60 120 1
+[Level 6 - 2m move]
+level = pl 2
+PicoTimeControl = 120
 
-[Level 09 - 40 moves/2h]
-level = Pl 3
-PicoTimeControl = 40 120 1
+[Level 7 - 5m move]
+level = pl 4
+PicoTimeControl = 300
 
-[Level 10 - 5m game]
-level = Pl 4
-PicoTimeControl = 5 1
+[Level 8 - 10m move]
+level = pl 5
+PicoTimeControl = 600
 
-[Level 11 - 10m game]
-level = Pl 5
-PicoTimeControl = 10 1
-
-;[Level 12 - Infinite]
-;level = Pl 6
-;PicoTimeControl = 02 999 02 999
-
+[Level 9 - 40 moves/2h]
+level = pl 3
+PicoTimeControl = 40 120 0
