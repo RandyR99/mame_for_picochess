@@ -1,44 +1,39 @@
-[Level 01 - 2m game]
+[Level 1 - 2m game]
 level = BLITZ 00
 PicoTimeControl = 2 0
 
-[Level 02 - 3m game]
+[Level 2 - 3m game]
 level = BLITZ 01
 PicoTimeControl = 3 0
 
-[Level 03 - 5m game]
+[Level 3 - 5m game]
 level = BLITZ 02
 PicoTimeControl = 5 0
 
-[Level 04 - 10m game]
+[Level 4 - 10m game]
 level = BLITZ 04
 PicoTimeControl = 10 0
 
-[Level 05 - 15m game]
+[Level 5 - 15m game]
 level = BLITZ 05
 PicoTimeControl = 15 0
 
-[Level 06 - 30m game]
+[Level 6 - 20m game]
+level = BLITZ 06
+PicoTimeControl = 20 0
+
+[Level 7 - 30m game]
 level = BLITZ 07
 PicoTimeControl = 30 0
 
-[Level 07 - 45m game]
-level = BLITZ 08
-PicoTimeControl = 45 0
-
-[Level 08 - 60m game]
+[Level 8 - 60m game]
 level = BLITZ 09
 PicoTimeControl = 60 0
 
-[Level 09 - HC 50%]
-level = HANDC 04
-PicoTimeControl = 10 0
+[Level 9 - 40 moves/2h]
+level = TURN 08
+PicoTimeControl = 40 120 0
 
-[Level 10 - EASY3]
-level = EASY 03
-PicoTimeControl = 5 0
-
-[Level 11 - 60 moves/1h]
-level = TURN 05
-PicoTimeControl = 60 60 0
-
+[Level 10 - Analysis]
+level = DAUER
+PicoTimeControl = 999

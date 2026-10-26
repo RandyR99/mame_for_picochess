@@ -1,35 +1,43 @@
-[1 - 5 Seconds/Move]
+[Level 1 - 5s move]
 level = NORML 01
 PicoTimeControl = 5
 
-[2 - 15 Seconds/Move]
-level = NORML 03
-PicoTimeControl = 15
+[Level 2 - 10s move]
+level = NORML 02
+PicoTimeControl = 10
 
-[3 - 30 Seconds/Move]
+[Level 3 - 30s move]
 level = NORML 04
 PicoTimeControl = 30
 
-[4 - 1 Minute/Move]
+[Level 4 - 1m move]
 level = NORML 05
 PicoTimeControl = 60
 
-[5 - 2 Minutes/Move]
+[Level 5 - 2m move]
 level = NORML 07
 PicoTimeControl = 120
 
-[6 - 40 Moves/2 Hours]
-level = TURN 00
-PicoTimeControl = 40 120 0
-
-[7 - 5 Minutes/Game]
+[Level 6 - 5m game]
 level = BLITZ 02
 PicoTimeControl = 5 0
 
-[8 - 15 Minutes/Game]
+[Level 7 - 10m game]
+level = BLITZ 04
+PicoTimeControl = 10 0
+
+[Level 8 - 15m game]
 level = BLITZ 05
 PicoTimeControl = 15 0
 
-[9 - 30 Minutes/Game]
+[Level 9 - 30m game]
 level = BLITZ 07
 PicoTimeControl = 30 0
+
+[Level 10 - 40 moves/2h]
+level = TURN 00
+PicoTimeControl = 40 120 0
+
+[Level 11 - Analysis]
+level = DAUER
+PicoTimeControl = 999
