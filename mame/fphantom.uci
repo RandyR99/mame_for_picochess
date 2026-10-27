@@ -18,21 +18,21 @@ PicoTimeControl = 60
 level = a6
 PicoTimeControl = 120
 
-[Level 6 - 40 moves/2h]
-level = a7
-PicoTimeControl = 40 120 0
-
-[Level 7 - 5m game]
+[Level 6 - 5m game]
 level = b1
 PicoTimeControl = 5 0
 
-[Level 8 - 15m game]
+[Level 7 - 15m game]
 level = b3
 PicoTimeControl = 15 0
 
-[Level 9 - 30m game]
+[Level 8 - 30m game]
 level = b5
 PicoTimeControl = 30 0
+
+[Level 9 - 40 moves/2h]
+level = a7
+PicoTimeControl = 40 120 0
 
 [Level 10 - Analysis]
 level = c1

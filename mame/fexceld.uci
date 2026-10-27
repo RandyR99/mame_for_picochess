@@ -18,13 +18,13 @@ PicoTimeControl = 60
 level = 10
 PicoTimeControl = 120
 
-[Level 6 - 40 moves/2h]
-level = 11
-PicoTimeControl = 40 120 0
-
-[Level 7 - 5m game]
+[Level 6 - 5m game]
 level = 5
 PicoTimeControl = 5 0
+
+[Level 7 - 40 moves/2h]
+level = 11
+PicoTimeControl = 40 120 0
 
 [Level 8 - Analysis]
 level = 12
