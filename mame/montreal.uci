@@ -1,0 +1,39 @@
+[Level 1 - 5s move]
+level = nor2
+PicoTimeControl = 5
+
+[Level 2 - 10s move]
+level = nor3
+PicoTimeControl = 10
+
+[Level 3 - 30s move]
+level = nor5
+PicoTimeControl = 30
+
+[Level 4 - 1m move]
+level = nor6
+PicoTimeControl = 60
+
+[Level 5 - 2m move]
+level = nor7
+PicoTimeControl = 120
+
+[Level 6 - 5m game]
+level = bli2
+PicoTimeControl = 5 0
+
+[Level 7 - 10m game]
+level = bli4
+PicoTimeControl = 10 0
+
+[Level 8 - 15m game]
+level = bli5
+PicoTimeControl = 15 0
+
+[Level 9 - 30m game]
+level = bli7
+PicoTimeControl = 30 0
+
+[Level 10 - 40 moves/2h]
+level = tou0
+PicoTimeControl = 40 120 0
