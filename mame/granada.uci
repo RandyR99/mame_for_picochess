@@ -1,0 +1,11 @@
+[Level 1 - 10s move]
+level = c1
+PicoTimeControl = 10
+
+[Level 2 - 30s move]
+level = c4
+PicoTimeControl = 30
+
+[Level 3 - 1m move]
+level = d8
+PicoTimeControl = 60
