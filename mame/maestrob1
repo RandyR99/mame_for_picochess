@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd /opt/picochess/engines/mame_emulation; SDL_VIDEODRIVER=dummy /opt/picochess/engines/mame_emulation/mess $1 -video none -plugin chessengine galileo -exp maestro,bios=0 -rom egr2
+cd /opt/picochess/engines/mame_emulation; SDL_VIDEODRIVER=dummy /opt/picochess/engines/mame_emulation/mess $1 -video none -plugin chessengine galileo -exp maestro,bios=b1 -rom egr2
 
