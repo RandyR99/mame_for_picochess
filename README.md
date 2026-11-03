@@ -26,3 +26,7 @@ picochess expects MAME in `/opt/picochess/engines/mame_emulation` (the `mess` bi
 ## Machines
 
 Which features each machine supports (position setup, history replay, live info, pondering), its known limits and its change history are listed in chessengine's [docs/MACHINES.md](https://github.com/RandyR99/chessengine/blob/main/docs/MACHINES.md).
+
+## License
+
+GPL-3.0, the same as picochess. See [LICENSE](LICENSE).
