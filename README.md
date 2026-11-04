@@ -12,7 +12,6 @@ The MAME engine files for [picochess](https://github.com/JohanSjoblom/picochess)
 | `mame/<system>.uci` | The machine's levels as picochess offers them. |
 | `dgt/<system>.uci` | The same levels with names short enough for the DGT3000 and DGTPi clocks. Generated from `mame/<system>.uci`. |
 | `tools/make_dgt_uci.py` | Generates `dgt/` and builds `mame_uci_web_en.zip` and `mame_uci_dgtpi_en.zip`. |
-| `retro_additions.ini` | Proposed new entries, not read by picochess; an entry moves into `retro.ini` once it has been tested and reviewed. |
 
 `<system>` is the MAME set name. A few entries run another set or a cartridge through their script, for example `vccg` runs `vcc -bios de` and `ggm_steinitz` runs `ggm steinitz`.
 
