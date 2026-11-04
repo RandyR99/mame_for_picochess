@@ -1,0 +1,27 @@
+[01-5s move]
+level = a1
+PicoTimeControl = 5
+
+[02-11s move]
+level = a2
+PicoTimeControl = 11
+
+[03-25s move]
+level = a3
+PicoTimeControl = 25
+
+[04-50s move]
+level = a4
+PicoTimeControl = 50
+
+[05-110s mov]
+level = a5
+PicoTimeControl = 110
+
+[06-3m move]
+level = a6
+PicoTimeControl = 180
+
+[07-12m move]
+level = a7
+PicoTimeControl = 720

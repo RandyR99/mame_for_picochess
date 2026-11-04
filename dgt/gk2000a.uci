@@ -1,0 +1,43 @@
+[01-5s move]
+level = d1
+PicoTimeControl = 5
+
+[02-10s move]
+level = e1
+PicoTimeControl = 10
+
+[03-30s move]
+level = h1
+PicoTimeControl = 30
+
+[04-1m move]
+level = b2
+PicoTimeControl = 60
+
+[05-5m move]
+level = f2
+PicoTimeControl = 300
+
+[06-10m move]
+level = g2
+PicoTimeControl = 600
+
+[07-5m game]
+level = a4
+PicoTimeControl = 5 0
+
+[08-10m game]
+level = b4
+PicoTimeControl = 10 0
+
+[09-15m game]
+level = c4
+PicoTimeControl = 15 0
+
+[10-30m game]
+level = e4
+PicoTimeControl = 30 0
+
+[11-40/1.5h]
+level = a3
+PicoTimeControl = 40 90 0

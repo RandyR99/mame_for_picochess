@@ -1,0 +1,19 @@
+[01-5s move]
+level = T1
+PicoTimeControl = 5
+
+[02-45s move]
+level = T2
+PicoTimeControl = 45
+
+[03-2m move]
+level = T3
+PicoTimeControl = 120
+
+[04-3m move]
+level = T4
+PicoTimeControl = 180
+
+[05-225s mov]
+level = T5
+PicoTimeControl = 225

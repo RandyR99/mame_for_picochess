@@ -1,0 +1,35 @@
+[01-5s move]
+level = 1
+PicoTimeControl = 5
+
+[02-15s move]
+level = 10
+PicoTimeControl = 15
+
+[03-30s move]
+level = 3
+PicoTimeControl = 30
+
+[04-1m move]
+level = 4
+PicoTimeControl = 60
+
+[05-90s move]
+level = 12
+PicoTimeControl = 90
+
+[06-2m move]
+level = 5
+PicoTimeControl = 120
+
+[07-150s mov]
+level = 13
+PicoTimeControl = 150
+
+[08-40/1.5h]
+level = 6
+PicoTimeControl = 40 90 0
+
+[09-40/2h]
+level = 7
+PicoTimeControl = 40 120 0

@@ -1,0 +1,34 @@
+[01-6m move]
+level = 7
+PicoTimeControl = 360
+;[08-Analysis] = 
+;level = 8
+;PicoTimeControl = 02 999 02 999
+
+[02-60/5m]
+level = 0
+PicoTimeControl = 60 5 0
+
+[03-60/15m]
+level = 1
+PicoTimeControl = 60 15 0
+
+[04-60/30m]
+level = 2
+PicoTimeControl = 60 30 0
+
+[05-60/1h]
+level = 3
+PicoTimeControl = 60 60 0
+
+[06-30/1h]
+level = 4
+PicoTimeControl = 30 60 0
+
+[07-40/2h]
+level = 5
+PicoTimeControl = 40 120 0
+
+[08-40/2.5h]
+level = 6
+PicoTimeControl = 40 150 0

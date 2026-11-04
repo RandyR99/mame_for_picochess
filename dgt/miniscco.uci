@@ -1,0 +1,15 @@
+[01-5-22s mv]
+level = 1
+PicoTimeControl = 10
+
+[02-10-35s]
+level = 2
+PicoTimeControl = 30
+
+[03-30-100s]
+level = 3
+PicoTimeControl = 60
+
+[04-Analysis]
+level = 4
+PicoTimeControl = 999

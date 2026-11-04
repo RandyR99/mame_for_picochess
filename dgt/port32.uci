@@ -1,0 +1,39 @@
+[01-2m game]
+level = BLITZ 00
+PicoTimeControl = 2 0
+
+[02-3m game]
+level = BLITZ 01
+PicoTimeControl = 3 0
+
+[03-5m game]
+level = BLITZ 02
+PicoTimeControl = 5 0
+
+[04-10m game]
+level = BLITZ 04
+PicoTimeControl = 10 0
+
+[05-15m game]
+level = BLITZ 05
+PicoTimeControl = 15 0
+
+[06-20m game]
+level = BLITZ 06
+PicoTimeControl = 20 0
+
+[07-30m game]
+level = BLITZ 07
+PicoTimeControl = 30 0
+
+[08-60m game]
+level = BLITZ 09
+PicoTimeControl = 60 0
+
+[09-40/2h]
+level = TURN 08
+PicoTimeControl = 40 120 0
+
+[10-Analysis]
+level = DAUER
+PicoTimeControl = 999

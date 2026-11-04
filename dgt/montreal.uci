@@ -1,0 +1,39 @@
+[01-5s move]
+level = nor2
+PicoTimeControl = 5
+
+[02-10s move]
+level = nor3
+PicoTimeControl = 10
+
+[03-30s move]
+level = nor5
+PicoTimeControl = 30
+
+[04-1m move]
+level = nor6
+PicoTimeControl = 60
+
+[05-2m move]
+level = nor7
+PicoTimeControl = 120
+
+[06-5m game]
+level = bli2
+PicoTimeControl = 5 0
+
+[07-10m game]
+level = bli4
+PicoTimeControl = 10 0
+
+[08-15m game]
+level = bli5
+PicoTimeControl = 15 0
+
+[09-30m game]
+level = bli7
+PicoTimeControl = 30 0
+
+[10-40/2h]
+level = tou0
+PicoTimeControl = 40 120 0

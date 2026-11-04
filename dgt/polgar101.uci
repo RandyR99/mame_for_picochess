@@ -1,0 +1,43 @@
+[01-5s move]
+level = NORMAL 0:05
+PicoTimeControl = 5
+
+[02-10s move]
+level = NORMAL 0:10
+PicoTimeControl = 10
+
+[03-30s move]
+level = NORMAL 0:30
+PicoTimeControl = 30
+
+[04-1m move]
+level = NORMAL 1:00
+PicoTimeControl = 60
+
+[05-5m move]
+level = NORMAL 5:00
+PicoTimeControl = 300
+
+[06-5m game]
+level = BLITZ 0:05 0:05
+PicoTimeControl = 5 0
+
+[07-10m game]
+level = BLITZ 0:10 0:10
+PicoTimeControl = 10 0
+
+[08-15m game]
+level = BLITZ 0:15 0:15
+PicoTimeControl = 15 0
+
+[09-30m game]
+level = BLITZ 0:30 0:30
+PicoTimeControl = 30 0
+
+[10-40/1.5h]
+level = TOUR 40 IN 1:30
+PicoTimeControl = 40 90 0
+
+[11-Analysis]
+level = INFINITE
+PicoTimeControl = 999

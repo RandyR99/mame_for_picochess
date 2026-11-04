@@ -1,0 +1,47 @@
+[01-5s move]
+level = a3
+PicoTimeControl = 5
+
+[02-15s move]
+level = a4
+PicoTimeControl = 15
+
+[03-30s move]
+level = a5
+PicoTimeControl = 30
+
+[04-60s move]
+level = a6
+PicoTimeControl = 60
+
+[05-2m move]
+level = a7
+PicoTimeControl = 120
+
+[06-5m game]
+level = c1
+PicoTimeControl = 5 0
+
+[07-10m game]
+level = c2
+PicoTimeControl = 10 0
+
+[08-15m game]
+level = c3
+PicoTimeControl = 15 0
+
+[09-30m game]
+level = c5
+PicoTimeControl = 30 0
+
+[10-60m game]
+level = c6
+PicoTimeControl = 60 0
+
+[11-90m game]
+level = c7
+PicoTimeControl = 90 0
+
+[12-Analysis]
+level = b7
+PicoTimeControl = 999

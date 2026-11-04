@@ -1,0 +1,31 @@
+[01-5s move]
+level = 5
+PicoTimeControl = 5
+
+[02-10s move]
+level = 10
+PicoTimeControl = 10
+
+[03-30s move]
+level = 30
+PicoTimeControl = 30
+
+[04-1m move]
+level = 60
+PicoTimeControl = 60
+
+[05-3m move]
+level = 180
+PicoTimeControl = 180
+
+[06-5m move]
+level = 300
+PicoTimeControl = 300
+
+[07-10m move]
+level = 600
+PicoTimeControl = 600
+
+[08-40/1.5h]
+level = TOURN 40/90
+PicoTimeControl = 40 90 0
