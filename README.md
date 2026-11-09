@@ -17,7 +17,58 @@ The MAME engine files for [picochess](https://github.com/JohanSjoblom/picochess)
 
 ## Installing
 
-picochess expects MAME in `/opt/picochess/engines/mame_emulation` (the `mess` binary, with this chessengine version in `plugins/chessengine`), and these files in its engine folder (`engines/<architecture>/`): `retro.ini` and the `mame/` folder. The ROMs are not included. Software-list cartridges go in `<softwarelist>.zip` per list.
+picochess expects MAME in `/opt/picochess/engines/mame_emulation` (the `mess` binary, with this chessengine version in `plugins/chessengine`), and these files in its engine folder (`engines/<architecture>/`): `retro.ini` and the `mame/` folder. The ROMs are not included.
+
+## ROMs
+
+The ROMs go in `/opt/picochess/engines/mame_emulation/roms`. They must match the MAME version of your `mess` binary: MAME renames sets and replaces ROM dumps between versions, so a ROM set made for another version may not load. Check them with:
+
+```sh
+cd /opt/picochess/engines/mame_emulation
+./mess -verifyroms
+./mess -verifysoftlist
+```
+
+Every set should be reported as OK. `-verifyroms` checks the machines' own ROMs (`<system>.zip`), `-verifysoftlist` the software lists described below.
+
+### Software lists
+
+Some machines need a cartridge or an external ROM, for example a program module. Their start scripts give it after the system name, and MAME looks it up in a software list: `mame/arb_sargon25` runs `arb sargon25`, which loads the `sargon25` module from the `arb` list. Without the software list archive these engines don't start.
+
+Each software list goes in one archive, named `<softwarelist name>.zip`. Inside it, each piece of software has a folder named `<software name>` that holds all of its `<rom name>` files. The names come from:
+
+```sh
+./mess -listsoftware <system>
+```
+
+This prints the system's software lists as XML: `<softwarelist name="...">`, then `<software name="...">` for each piece of software, with a `<rom name="...">` line for each of its files. Without a system name it prints every list.
+
+The engines here use these archives (MAME 0.289): `arb.zip`, `chessmstdm.zip`, `conchess.zip`, `fidel_msc.zip`, `fidel_sc6.zip`, `fidel_scc.zip`, `ggm.zip`, `intellect02.zip`, `mephisto_mm1.zip`, `mephisto_mm2.zip`, `mephisto_mm4.zip`, `mephisto_mm5.zip`, `mephisto_smondial2.zip`, `novag_ssensor4.zip`, `saitek_egr.zip`, `saitek_kso.zip` and `saitek_schess.zip`.
+
+For example, in MAME 0.289 `arb.zip` holds five folders:
+
+```
+arb.zip
+    avelan/
+        avelan.bin
+    gms3/
+        1.bin
+        2.bin
+        3.bin
+    gms4/
+        1.bin
+        2.bin
+        3.bin
+    sargon25/
+        4000-4800_ea_8332a161-1
+        5000-5800_ea_8332a160-1
+    sargon35/
+        1.bin
+        2.bin
+        3.bin
+```
+
+The folders keep files with the same name apart (`gms3`, `gms4` and `sargon35` each have a `1.bin`). `./mess -verifysoftlist arb` checks a single list.
 
 ## Conventions
 
