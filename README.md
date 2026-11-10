@@ -12,6 +12,7 @@ The MAME engine files for [picochess](https://github.com/JohanSjoblom/picochess)
 | `mame/<system>.uci` | The machine's levels as picochess offers them. |
 | `dgt/<system>.uci` | The same levels with names short enough for the DGT3000 and DGTPi clocks. Generated from `mame/<system>.uci`. |
 | `tools/make_dgt_uci.py` | Generates `dgt/` and builds `mame_uci_web_en.zip` and `mame_uci_dgtpi_en.zip`. |
+| `tools/check_softlist_roms.sh` | Lists the engines whose software list ROMs are missing (see [Software lists](#software-lists)). |
 
 `<system>` is the MAME set name. A few entries run another set or a cartridge through their script, for example `vccg` runs `vcc -bios de` and `ggm_steinitz` runs `ggm steinitz`.
 
@@ -34,6 +35,14 @@ Every set should be reported as OK. `-verifyroms` checks the machines' own ROMs 
 ### Software lists
 
 Some machines need a cartridge or an external ROM, for example a program module. Their start scripts give it after the system name, and MAME looks it up in a software list: `mame/arb_sargon25` runs `arb sargon25`, which loads the `sargon25` module from the `arb` list. Without the software list archive these engines don't start.
+
+`-verifysoftlist` only reports the software it finds, not what is missing. To see which engines can't start, run:
+
+```sh
+bash tools/check_softlist_roms.sh
+```
+
+It prints each engine whose software is missing and the ROM it needs, for example `arb_sargon25: needs arb:sargon25`. By default it checks the start scripts in `/opt/picochess/engines/<arch>/mame` against the ROM folder of the MAME in `/opt/picochess/engines/mame_emulation`. Give other folders as arguments (`check_softlist_roms.sh <script dir> <mame dir>`). To check another ROM folder, such as a ROM pack before you install it, set `ROMPATH=<roms dir>`. MAME also finds software stored as its own zip (`roms/sargon25.zip`), but ROM packs for older MAME versions may use older names (`gms30.zip` for `gms3`), and the script reports those as missing.
 
 Each software list goes in one archive, named `<softwarelist name>.zip`. Inside it, each piece of software has a folder named `<software name>` that holds all of its `<rom name>` files. The names come from:
 
