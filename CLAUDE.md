@@ -10,7 +10,7 @@ Guidance for Claude Code (and other AI coding tools) working in this repo. READM
 - `mame/<system>` — headless launch script. `mame/<system>_art` runs the same with the MAME window and artwork. `mame/<system>.uci` is the level list.
 - `dgt/<system>.uci` — copies with short level names for DGT clocks. They are generated: never edit them by hand.
 - `tools/make_dgt_uci.py` — regenerates `dgt/` (`--check` verifies it, `--zip DIR` also builds the two `.uci` zips).
-- `tools/check_softlist_roms.sh` — lists engines whose software list ROMs are missing. It reads the software name from each start script, so update its argument parsing if a script uses a new media option.
+- `tools/check_softlist_roms.sh` — lists engines whose software list ROMs are missing and searches the ROM zips for their files by CRC. It reads the software name from each start script, so update its argument parsing if a script uses a new media option.
 
 ## Rules
 
