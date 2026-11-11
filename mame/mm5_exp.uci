@@ -1,0 +1,43 @@
+[Level 1 - 5s move]
+level = le 1
+PicoTimeControl = 5
+
+[Level 2 - 10s move]
+level = le 2
+PicoTimeControl = 10
+
+[Level 3 - 20s move]
+level = le 3
+PicoTimeControl = 20
+
+[Level 4 - 1m move]
+level = le 4
+PicoTimeControl = 60
+
+[Level 5 - 2m move]
+level = le 5
+PicoTimeControl = 120
+
+[Level 6 - 6m move]
+level = le 8
+PicoTimeControl = 360
+
+[Level 7 - 5m game]
+level = bl 1
+PicoTimeControl = 5 0
+
+[Level 8 - 10m game]
+level = bl 4
+PicoTimeControl = 10 0
+
+[Level 9 - 15m game]
+level = bl 6
+PicoTimeControl = 15 0
+
+[Level 10 - 30m game]
+level = bl 7
+PicoTimeControl = 30 0
+
+[Level 11 - 40 moves/2h]
+level = le 6
+PicoTimeControl = 40 120 0
