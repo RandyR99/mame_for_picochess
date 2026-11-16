@@ -53,7 +53,7 @@ bash tools/check_softlist_roms.sh
 
 It prints each engine whose software is missing and the ROM it needs, for example `arb_sargon25: needs arb:sargon25`. By default it checks the start scripts in `/opt/picochess/engines/<arch>/mame` against the ROM folder of the MAME in `/opt/picochess/engines/mame_emulation`. Give other folders as arguments (`check_softlist_roms.sh <script dir> <mame dir>`). To check another ROM folder, such as a ROM pack before you install it, set `ROMPATH=<roms dir>`. MAME also finds software stored as its own zip (`roms/sargon25.zip`), but ROM packs for older MAME versions may use older names (`gms30.zip` for `gms3`). For each missing item the script lists its ROM files with their CRCs and searches all zips in the ROM folder for them by CRC. When a zip holds exactly the item's files under another name, it says which one to copy, for example `-> copy gms30.zip as gms3.zip`. The search needs `python3`.
 
-Each software list goes in one archive, named `<softwarelist name>.zip`. Inside it, each piece of software has a folder named `<software name>` that holds all of its `<rom name>` files. The names come from:
+Each software list goes in one archive, named `<softwarelist name>.zip`, which holds the `<rom name>` files of all its software at the top level. Folders named `<software name>` were created only where needed, to keep files with clashing names apart. MAME finds the files either way. The names come from:
 
 ```sh
 ./mess -listsoftware <system>
@@ -63,7 +63,7 @@ This prints the system's software lists as XML: `<softwarelist name="...">`, the
 
 The engines here use these archives (MAME 0.289): `arb.zip`, `chessmstdm.zip`, `conchess.zip`, `fidel_msc.zip`, `fidel_sc6.zip`, `fidel_scc.zip`, `ggm.zip`, `intellect02.zip`, `mephisto_mm1.zip`, `mephisto_mm2.zip`, `mephisto_mm4.zip`, `mephisto_mm5.zip`, `mephisto_smondial2.zip`, `novag_ssensor4.zip`, `saitek_egr.zip`, `saitek_kso.zip` and `saitek_schess.zip`.
 
-For example, in MAME 0.289 `arb.zip` holds five folders:
+In MAME 0.289 only `arb.zip` needs folders. It holds five:
 
 ```
 arb.zip
@@ -86,7 +86,7 @@ arb.zip
         3.bin
 ```
 
-The folders keep files with the same name apart (`gms3`, `gms4` and `sargon35` each have a `1.bin`). `./mess -verifysoftlist arb` checks a single list.
+The folders keep the clashing files apart (`gms3`, `gms4` and `sargon35` each have a `1.bin`). `./mess -verifysoftlist arb` checks a single list.
 
 ## Conventions
 
