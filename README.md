@@ -21,13 +21,13 @@ The MAME engine files for [picochess](https://github.com/JohanSjoblom/picochess)
 
 picochess expects MAME in `/opt/picochess/engines/mame_emulation` (the `mess` binary, with this chessengine version in `plugins/chessengine`), and these files in its engine folder (`engines/<architecture>/`): `retro.ini` and the `mame/` folder. The ROMs are not included.
 
-Copy the contents of `mame_emulation/` into `/opt/picochess/engines/mame_emulation`. They are used by `mame/robotadv_art`, which animates the Novag Robot Adversary's arm and plays its mechanical sounds (artwork and sound by Dirk, building on Luis's artwork):
+Copy the contents of `mame_emulation/` into `/opt/picochess/engines/mame_emulation`. They are used by the Novag Robot Adversary's start scripts: `mame/robotadv_art` animates its arm and plays its mechanical sounds, `mame/robotadv` plays the sounds headless (artwork and sound by Dirk, building on Luis's artwork):
 
 | Path | What it is |
 |---|---|
 | `mame_emulation/plugins/novagsound/` | Plugin that reports the arm's motor, lift and gripper movements. |
 | `mame_emulation/plugins/layout/` | MAME's standard layout plugin (BSD-3-Clause, copied from MAME 0.289), which runs the arm script in the artwork. |
-| `mame_emulation/MechanicalSound/` | `novag_audio.py` starts MAME and plays the motor, lift, grip and release sounds. Needs `python3` and `aplay` (package `alsa-utils`). Set `NOVAG_ALSA_DEVICE` to use an ALSA device other than `default`. |
+| `mame_emulation/MechanicalSound/` | `novag_audio.py` starts MAME and plays the motor, lift, grip and release sounds. Needs `python3` and `aplay` (package `alsa-utils`). Set `NOVAG_ALSA_DEVICE` to use an ALSA device other than `default`. With picochess's retro sound off (`-sound none`), it starts MAME without the sounds. |
 
 ## ROMs
 

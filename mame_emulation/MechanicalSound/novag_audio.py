@@ -99,7 +99,14 @@ def play_events(events, player, stop):
             player.stdin.write(stereo.tobytes())
 
 
+def sound_off(command):
+    """True if MAME is started with '-sound none' (picochess's retro sound is off)."""
+    return any(a == "-sound" and b == "none" for a, b in zip(command, command[1:]))
+
+
 def launcher(command):
+    if sound_off(command):
+        os.execvp(command[0], command)
     if not shutil.which("aplay"):
         print("NovagAudio: aplay is missing. Install the alsa-utils package on the Pi.", file=sys.stderr)
         os.execvp(command[0], command)
