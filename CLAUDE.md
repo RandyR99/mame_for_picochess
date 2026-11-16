@@ -9,6 +9,7 @@ Guidance for Claude Code (and other AI coding tools) working in this repo. READM
 - `retro.ini` — one `[mame/<system>]` section per machine: `name`, `small`, `medium`, `large`, `web`, `elo`, `levels`, `ponder/brain`, and an optional `comments`.
 - `mame/<system>` — headless launch script. `mame/<system>_art` runs the same with the MAME window and artwork. `mame/<system>.uci` is the level list.
 - `dgt/<system>.uci` — copies with short level names for DGT clocks. They are generated: never edit them by hand.
+- `mame_emulation/` — files copied into picochess's `engines/mame_emulation`: the `novagsound` plugin, MAME 0.289's stock `layout` plugin and `MechanicalSound/` (`novag_audio.py` and its WAVs), all for `mame/robotadv_art`. Refresh `plugins/layout` from each new MAME release.
 - `tools/make_dgt_uci.py` — regenerates `dgt/` (`--check` verifies it, `--zip DIR` also builds the two `.uci` zips).
 - `tools/check_softlist_roms.sh` — lists engines whose software list ROMs are missing and searches the ROM zips for their files by CRC. It reads the software name from each start script, so update its argument parsing if a script uses a new media option.
 
@@ -48,4 +49,4 @@ Guidance for Claude Code (and other AI coding tools) working in this repo. READM
 
 ## Scripts
 
-Launch scripts change to picochess's `engines/mame_emulation` folder and run `mess $1 -video none -plugin chessengine <system>` with `SDL_VIDEODRIVER=dummy`. The `_art` scripts drop both. picochess passes its MAME options as `$1`. Cartridge sets pass the software-list item (`-cart ...`); ROMs aren't part of this repo.
+Launch scripts change to picochess's `engines/mame_emulation` folder and run `mess $1 -video none -plugin chessengine <system>` with `SDL_VIDEODRIVER=dummy`. The `_art` scripts drop both. Exception: `robotadv_art` (by Dirk) starts MAME through `MechanicalSound/novag_audio.py` with `-video soft -plugins -plugin chessengine,layout,novagsound`. `-video soft` is needed because the GPU renderers (`accel`, `opengl`) in MAME 0.289 keep showing a stale texture for the arm, which the artwork repaints with `invalidate()`. Otherwise keep the script as Dirk wrote it. picochess passes its MAME options as `$1`. Cartridge sets pass the software-list item (`-cart ...`); ROMs aren't part of this repo.

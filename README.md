@@ -11,6 +11,7 @@ The MAME engine files for [picochess](https://github.com/JohanSjoblom/picochess)
 | `mame/<system>_art` | The same with the MAME window and the machine's artwork, used when the artwork display is switched on in picochess. |
 | `mame/<system>.uci` | The machine's levels as picochess offers them. |
 | `dgt/<system>.uci` | The same levels with names short enough for the DGT3000 and DGTPi clocks. Generated from `mame/<system>.uci`. |
+| `mame_emulation/` | Files that go into the MAME folder next to `mess` (see below). |
 | `tools/make_dgt_uci.py` | Generates `dgt/` and builds `mame_uci_web_en.zip` and `mame_uci_dgtpi_en.zip`. |
 | `tools/check_softlist_roms.sh` | Lists the engines whose software list ROMs are missing and finds them in wrongly named zips (see [Software lists](#software-lists)). |
 
@@ -19,6 +20,14 @@ The MAME engine files for [picochess](https://github.com/JohanSjoblom/picochess)
 ## Installing
 
 picochess expects MAME in `/opt/picochess/engines/mame_emulation` (the `mess` binary, with this chessengine version in `plugins/chessengine`), and these files in its engine folder (`engines/<architecture>/`): `retro.ini` and the `mame/` folder. The ROMs are not included.
+
+Copy the contents of `mame_emulation/` into `/opt/picochess/engines/mame_emulation`. They are used by `mame/robotadv_art`, which animates the Novag Robot Adversary's arm and plays its mechanical sounds (artwork and sound by Dirk, building on Luis's artwork):
+
+| Path | What it is |
+|---|---|
+| `mame_emulation/plugins/novagsound/` | Plugin that reports the arm's motor, lift and gripper movements. |
+| `mame_emulation/plugins/layout/` | MAME's standard layout plugin (BSD-3-Clause, copied from MAME 0.289), which runs the arm script in the artwork. |
+| `mame_emulation/MechanicalSound/` | `novag_audio.py` starts MAME and plays the motor, lift, grip and release sounds. Needs `python3` and `aplay` (package `alsa-utils`). Set `NOVAG_ALSA_DEVICE` to use an ALSA device other than `default`. |
 
 ## ROMs
 

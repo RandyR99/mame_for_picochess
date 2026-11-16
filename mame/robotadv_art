@@ -1,5 +1,9 @@
 #!/bin/bash
-
-cd /opt/picochess/engines/mame_emulation; /opt/picochess/engines/mame_emulation/mess $1 -plugin chessengine robotadv
-
-
+set -e
+engine_dir=/opt/picochess/engines/mame_emulation
+cd "$engine_dir"
+# The existing PicoChess starter passes optional MAME switches in its first argument.
+read -r -a options <<< "${1:-}"
+exec python3 "$engine_dir/MechanicalSound/novag_audio.py" -- \
+    "$engine_dir/mess" "${options[@]}" "${@:2}" \
+    -video soft -plugins -plugin chessengine,layout,novagsound robotadv
